@@ -1,0 +1,6 @@
+  - name: copy some files
+    template:
+      src: get-stuff.ps1
+      dest: c:\terraform\get-stuff.ps1
+
+
