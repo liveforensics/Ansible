@@ -1,0 +1,6 @@
+- hosts: vsphere
+  roles:
+    - chrome
+    # - role: gantsign.visual-studio-code
+
+
