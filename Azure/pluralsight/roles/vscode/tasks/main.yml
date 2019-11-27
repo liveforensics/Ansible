@@ -1,0 +1,19 @@
+
+# - name: Get vscode installer
+#   win_get_url:
+#     url: https://az764295.vo.msecnd.net/stable/8795a9889db74563ddd43eb0a897a2384129a619/VSCodeSetup-x64-1.40.1.exe 
+#     dest: c:\users\colin\downloads
+
+# - name: install vscode
+#   win_package:
+#     path:  c:\users\colin\downloads\VSCodeSetup-x64-1.40.1.exe
+#     product_id: '{6e9e418a-2656-4c40-a739-4f9b2acf375f}'
+#     arguments: /install /passive /norestart
+#     wait: yes
+#     state: present
+
+# - name: cleanup installer
+#   win_file:
+#     path: c:\users\colin\downloads\VSCodeSetup-x64-1.40.1.exe
+#     state: absent
+
